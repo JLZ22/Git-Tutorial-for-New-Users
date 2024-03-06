@@ -3,7 +3,7 @@
 This is a repository. A repository is essentially a collection of files and folders. Github stores these repositories on their servers. To get the repository on to your machine, <br> 
 
 - click on the green button that says code and copy the link.<br>
-- open the location you want the repository to be stored on you local device in the command line<br>
+- open the location you want the repository to be stored on you local device in the terminal<br>
 - type `git clone <the link you copied>`<br>
 
 ## Branches<br>
