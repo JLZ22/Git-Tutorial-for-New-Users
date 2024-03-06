@@ -30,7 +30,7 @@ Below are some important commands to know for branching.
 
 ## Commits<br>
 
-Commits are snapshots of a branch's edit history, and they are created by the developer in order to record and save progress. You typically make a commit after finishing a relatively small subtask. These commits are stored locally for now.<br>
+Commits are snapshots of a branch's edit history, and they are created by the developer in order to record and save progress. Keep in mind that every branch has its own commit history. You typically make a commit after finishing a relatively small subtask. These commits are stored locally for now.<br>
 
 ### To make a commit, follow the steps below.<br>
 
