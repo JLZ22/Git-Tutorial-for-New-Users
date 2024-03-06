@@ -54,7 +54,7 @@ There are certain cases where this will not work. Typically, this is because the
 
 ## Pulling <br>
 
-When you pull, you retrieve the most recent record of your branch from github. It is strongly recommended to do this every time before you work on the code to avoid version conflicts when pushing. To pull from the branch that you are currently on simply run `git pull`. Since you will eventually want to merge the branch you are working on with the main This can also fail if you have changes that will be overwritten by the pull command. A simple solution is to stash your local changes before pulling. More on this in the [stashing](stash) section. 
+When you pull, you retrieve the most recent record of your branch from github. It is strongly recommended to do this every time before you work on the code to avoid version conflicts when pushing. To pull from the branch that you are currently on simply run `git pull`. Since you will eventually want to merge the branch you are working on with the main, it is recommended to pull from main as well. This can also fail if you have changes that will be overwritten by the pull command. A simple solution is to stash your local changes before pulling. More on this in the [stashing](stash) section. 
 
 ## Stashing<br>
 
