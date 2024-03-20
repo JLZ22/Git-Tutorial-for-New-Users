@@ -60,7 +60,7 @@ When you pull, you retrieve the most recent record of your branch from github. I
 
 ## Stashing<br>
 
-For the reasons stated above, sometimes we need to save our local changes before pulling. Another reason could be if you want to switch branches without committing yet. To save your work, you can use `git stash` which will push your new stash onto the stack. You can call this multiple times, so to view a list of all stashes in the branch, you can call `git stash list`. Now, you can pull and switch branches as you wish. When you want to add your most resent stash back, use `git stash apply`. If you want to restore an older stash, use `git stash apply stash@{<insert stash number>}`. Keep in mind that every branch has its own stack of stashes, so you cannot apply a stash from one branch A onto branch B after switching from A to B.<br>
+For the reasons stated above, sometimes we need to save our local changes before pulling. Another reason could be if you want to switch branches without committing yet. To save your work, you can use `git stash` which will push your new stash onto the stack. You can call this multiple times, so to view a list of all stashes in the branch, you can call `git stash list`. Now, you can pull and switch branches as you wish. When you want to add your most resent stash back, use `git stash apply`. If you want to restore an older stash, use `git stash apply stash@{<insert stash number>}`. Every repository has its own stash, so this is a good way to apply changes from one branch to another without needing to merge or commit anything.<br>
 
 ## Pull Requests<br>
 
