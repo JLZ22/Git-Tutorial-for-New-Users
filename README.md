@@ -66,6 +66,18 @@ For the reasons stated above, sometimes we need to save our local changes before
 
 Not to be confused with pulling, a pull request is a service offered by Github that allows developers to merge different branches. This is how we will be merging the working branches to the functional code. When you are ready to merge the branch you are working on with the main branch, you can open a pull request on Github. This allows you to compare any conflicts before making changes. More on this on Github's guide to [pull requests](https://docs.github.com/en/pull-requests).
 
+## Git Ignore<br>
+
+With any project, there may be certain files/directories that you do not want to be included when making commits. These can include but are not limited to virtual environments and IDE config files/folders that you need but may vary from person to person. To ignore certain files/directories, you want to create a file called `.gitignore`. In this file, you put the names of all the files and directories that you with to ignore. Here is an example of the contents of a `.gitignore`:<br>
+
+```
+example.txt
+some_directory/
+*.exe
+```
+
+In the example above, git will ignore the file `example.txt`, the directory `some_directory` and all of its contents, and all executables with the file type `.exe`. This last line where we use `*` is an example of wildcarding which you can read more on [here](https://en.wikipedia.org/wiki/Wildcard_character).<br>
+
 ## Useful commands<br>
 
 `git status`: shows you relevant information about your working directory<br>
