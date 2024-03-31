@@ -76,7 +76,8 @@ some_directory/
 *.exe
 ```
 
-In the example above, git will ignore the file `example.txt`, the directory `some_directory` and all of its contents, and all executables with the file type `.exe`. This last line where we use `*` is an example of wildcarding which you can read more on [here](https://en.wikipedia.org/wiki/Wildcard_character).<br>
+In the example above, git will ignore the file `example.txt`, the directory `some_directory` and all of its contents, and all executables with the file type `.exe`. This last line where we use `*` is an example of wildcarding which you can read more on [here](https://en.wikipedia.org/wiki/Wildcard_character). You can find more about `.gitignore` [here](https://www.atlassian.com/git/tutorials/saving-changes/gitignore).<br>
+
 
 ## Useful commands<br>
 
