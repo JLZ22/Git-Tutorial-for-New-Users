@@ -2,13 +2,13 @@
 
 DISCLAIMER: This tutorial only covers using git at an introductory level. It is not meant to replace documentation.<br>
 
-If you find this tutorial helpful, please consider giving it a star! 😊
+<ins>If you find this tutorial helpful, please consider giving it a star! 😊</ins>
 
 This is a repository. A repository is essentially a collection of files and folders. Github stores these repositories on their servers. To get the repository on to your machine, <br> 
 
 - click on the green button that says code and copy the link.<br>
 - open the location you want the repository to be stored on you local device in the terminal<br>
-- type `git clone <the link you copied>`<br>
+- type  `git clone <the link you copied>`<br>
 
 ## Branches<br>
 
@@ -42,9 +42,9 @@ Commits are snapshots of a branch's edit history, and they are created by the de
 - `git commit -m "<insert brief description of accomplishents>"`<br>
 - `git push`<br>
 
-### To commit a specific file<br>
+### To commit a specific file(s)<br>
 
-- `git add <insert file name 1>`<br>
+- `git add FILE1 FILE2 ...`<br>
 
 If this does not work, there should be alternative instructions provided in the terminal. 
 
