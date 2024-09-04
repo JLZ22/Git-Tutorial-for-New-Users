@@ -2,6 +2,8 @@
 
 DISCLAIMER: This tutorial only covers using git at an introductory level. It is not meant to replace documentation.<br>
 
+If you find this tutorial helpful, please consider giving it a star! 😊
+
 This is a repository. A repository is essentially a collection of files and folders. Github stores these repositories on their servers. To get the repository on to your machine, <br> 
 
 - click on the green button that says code and copy the link.<br>
