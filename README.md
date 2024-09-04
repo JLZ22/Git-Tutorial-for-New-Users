@@ -37,7 +37,7 @@ Commits are snapshots of a branch's edit history, and they are created by the de
 ### To make a commit, follow the steps below.<br>
 
 - `git add -A`<br>
-- `git commit -m "<insert brief description of accomplishents>`<br>
+- `git commit -m "<insert brief description of accomplishents>"`<br>
 - `git push`<br>
 
 ### To commit a specific file<br>
@@ -53,6 +53,12 @@ To move your changes from your machine to Github, run<br>
 `git push`.<br>
 
 There are certain cases where this will not work. Typically, this is because the branch that you are pushing to has changes that you did not [pull](#pulling) before working. A brief but not comprehensive solution can be found by [stashing](#stashing), [pulling](#pulling), and restoring your changes from the [stash](#stashing). Another solution you may come across is to force the push. **UNDER ALMOST NO CIRCUMSTANCES DO YOU WANT TO FORCE PUSH.** It will almost always result in merge conflicts or overwriting someone else's code.<br>
+
+You may run into an issue where the terminal asks you to log in with an authentication token. This will be discussed in the next section.
+
+## Github CLI
+
+**TODO**
 
 ## Pulling <br>
 
