@@ -9,7 +9,7 @@ DISCLAIMER: This tutorial only covers using git at an introductory level. It is 
 You're looking at one. A repository is a folder that stores other files and folders. Github stores repositories on their servers. To get the repository onto your machine,  
 
 - click on the green button that says code and copy the link.
-- open the location you want the repository to be stored on you local device in the terminal
+- open the location you want the repository to be stored on your local device in the terminal
 - type  `git clone <the link you copied>`
 
 For example, if you want to clone this repository, in your current working directory, 
