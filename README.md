@@ -76,7 +76,7 @@ As of August 13th, 2021, GitHub no longer accepts username + password to perform
     - For personal use, select `GitHub.com` 
     - Then, select `HTTPS`
     - Then, it will ask to authenticate with your Github credentials. Answer "Y" and log in with web browser by following the instructions. Alternatively, you can use an authentication token here, but that is out of the scope of this tutorial. 
-4. And you're done! Now, you can run all git commands without needing to authorize them every time. Note: this is **not recommended** if you are working on a shared/temporary machine because it grants *UNLIMITED ACCESS INDEFINETLY**.
+4. And you're done! Now, you can run all git commands without needing to authorize them every time. Note: this is **not recommended** if you are working on a shared/temporary machine because it grants **UNLIMITED ACCESS INDEFINETLY**.
 
 ## Pulling 
 
