@@ -47,6 +47,7 @@ Commits are snapshots of a branch's edit history, and they are created by the de
 ### To make a commit, follow the steps below.
 
 - `git add -A`
+    - the `-A` flag tells git to stage all changes you've made
 - `git commit -m "<insert brief description of accomplishents>"`
 - `git push`
 
